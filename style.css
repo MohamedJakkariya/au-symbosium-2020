@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for laptop version  */
+body{
+    background: url("img/bgimg/dot.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* Navbar  */
+.sticky-top{
+    background: none; 
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.out {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("img/bgimg/dot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.scroll{
+    height: 700px;
+    padding-top: 10rem;
+    width: 60%;
+    background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+/* Standard icon size */
+.ig{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    margin: 10px 20px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.icon a{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    color: black;
+}
+
+.icon a img{
+    margin: auto;
+}
+
+i{
+    color: #d4af37;
+    font-size:2rem;
+    padding: 1rem;
+}
+
+.contact{
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    margin-top: -10rem;
+}
+  
+/* Stylesheet for mobile verwion !important  */
+
+@media (max-width : 600px){
+
+body{
+    background: url("img/bgimg/dotted.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.out {
+    width: 100vw;
+    height: 100vh;
+    background: url("img/bgimg/dotted.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.scroll{
+    padding-top: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+   
+.ig{
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-left: 0;
+}
+   
+i{
+    color: #d4af37;
+    font-size:1.9rem;
+    padding-left: 0rem;
+}
+
+.icon{
+    margin: 0.3rem;
+    width: 110px;
+}
+.icon img{
+    padding:0rem;
+    background-color: none;
+    margin-left: 0.8rem;
+}
+
+.contact{
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 0rem;
+}
+   
+}

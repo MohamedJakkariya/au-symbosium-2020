@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenix2020</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link for bootstrap.css  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- Link for jquery.js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Link for popper.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Link for bootstrap.js  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/e2169f0192.js"></script>
+
+    <!-- Creating Blur effect  -->
+    <script>
+        $( window).on('scroll', function () {
+         var pixs = $(document).scrollTop()
+         pixs = pixs / 100;
+         $(".out").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
+       });
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top" style=" background-color: rgba(33, 37, 41,1); z-index: 99;">
+
+    <!-- Brand  -->
+    <a href="#" class="nav-link text-white" style="font-family:'Josefin Sans', sans-serif;">
+        FENIX<span style="font-size: 16px;  color: #d4af37;"> 2020</span>
+    </a>
+    
+    <!-- Toggler button  -->
+    <button class="navbar-toggler "  data-toggle="collapse" data-target="#Links">
+    <i class="fas fa-caret-down"></i>
+    </button>
+    
+    <!-- link section  -->
+    <div id="Links" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav ">
+        <li class="nav-item ">
+        <a href="#" class="nav-link  text-white">Home</a>
+        </li>
+        <li class="nav-item ">
+        <a href="#about" class="nav-link text-white">About</a>
+        </li>
+    
+        <li class="nav-item ">
+        <a href="#venue" class="nav-link text-white">Venue</a>
+        </li>
+    
+        <li class="nav-item ">
+        <a href="#gallery" class="nav-link text-white">Gallery</a>
+        </li>
+    
+        <li class="nav-item ">
+        <a href="#sponsors" class="nav-link text-white">Sponsors</a>
+        </li>
+    
+        <li class="nav-item ">
+        <a href="#contact" class="nav-link" style="color: #d4af37;">Contact</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    
+    <!-- for blur effect  -->
+    <div class="out"></div>
+
+    <!-- container start -->
+    <div class="scroll container-fluid">
+        <div class="row">
+            <div class="icon col-md-3">
+                <a href="others/tech.html">
+                    <img src="img/logo/tech.png" alt="" class="ig">
+                    <p>Tech</p>
+                </a>
+            </div>
+            
+            <div class="icon col-md-3 col-sm-6">
+                <a href="others/ntech.html">
+                        <img src="img/logo/non tech.png" alt="" class="ig">
+                        <p>Non  Tech</p>
+                </a>
+            </div>
+           
+            <div class="icon col-md-3 col-sm-6">
+                <a href="others/workshop.html">
+                        <img src="img/logo/workshop.png" alt="" class="ig">
+                        <p>Workshop</p>
+                </a>
+            </div>
+            
+            <div class="icon col-md-3 col-sm-6">
+                <a href="others/expo.html">
+                        <img src="img/logo/proj.png" alt="" class="ig">
+                        <p>Project Expo</p>
+                </a>
+            </div>
+            
+            <div class="icon col-md-6">
+                <a href="#">
+                        <img src="img/logo/gallery.png" alt="" class="ig">
+                        <p>Gallery</p>
+                </a>
+            </div>
+           
+           <div class="icon col-md-6">
+                <a href="https://www.google.com/maps/place/Anna+University+Regional+Office+Tiruchirappalli,/@10.6580598,78.7417161,18z/data=!4m5!3m4!1s0x3baa89337cba7f33:0x7120582d954fcb0f!8m2!3d10.6580598!4d78.7439048">
+                    <img src="img/logo/map.png" alt="" class="ig">  
+                    <p>Map</p>
+                </a>
+           </div> 
+            
+           <div class="contact">
+                <a href="tel:+91 8524967420"><i class="fas fa-phone-square-alt"></i></a>
+                <a href="https://www.instagram.com/aubitfenix2020/"><i class="fab fa-instagram" style="color: #d4af37;"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="mailto:fenix@aubit.edu.in?subject='Regarding Symbosium Registration'"><i class="far fa-envelope"></i></a>
+           </div>
+            
+            </div>
+    </div>
+
+</body>
+</html>
