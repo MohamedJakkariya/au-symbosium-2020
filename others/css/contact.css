@@ -60,6 +60,90 @@
     margin-bottom: 20px;
   }
   
+.social ul{
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+
+.social ul li{
+    position: relative;
+    margin: 1.5rem 0.6rem;
+    transition: 0.5s;
+    list-style: none;
+    /* border: 1px solid black; */
+    transform: rotate(-30deg) skew(15deg);
+    width: 50px;
+    height: 50px;
+    /* background: black; */
+}
+.social ul li:nth-child(1){
+    background: none;
+}
+
+
+.social ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center !important;
+    font-size: 25px;
+    /* background: black; */
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex !important;
+    height: 100%;;
+    color: black;
+}
+
+.social ul li:hover span:nth-child(5){
+    transform: translate(50px,-50px);
+    opacity: 1;
+}
+
+.social ul li:hover span:nth-child(4){
+    transform: translate(40px,-40px);
+    opacity: 0.8;
+    /* z-index: -2; */
+}
+.social ul li:hover span:nth-child(3){
+    transform: translate(30px,-30px);
+    opacity: 0.6;
+}
+.social ul li:hover span:nth-child(2){
+    transform: translate(20px,-20px);
+    opacity: 0.4;
+}
+.social ul li:hover span:nth-child(1){
+    transform: translate(10px,-10px);
+    opacity: 0.2;
+}
+
+.social ul li:nth-child(1) span{
+    background: #00A5CF;
+    color: white;
+}
+
+.social ul li:nth-child(2) span{
+    background: #00A676;
+    color: white;
+}
+.social ul li:nth-child(3) span{
+    background:#2F195F;
+    color: white;
+}
+.social ul li:nth-child(4) span{
+    background: #C52184;
+    color: white;
+}
+.social ul li:nth-child(5) span{
+    background: #DF3B57;
+    color: white;
+}
   
   @media screen and (max-width:960px) {
   .col{
