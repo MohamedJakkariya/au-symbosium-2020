@@ -84,6 +84,7 @@ i{
     margin: auto;
     justify-content: center;
     margin-top: -10rem;
+    z-index: 99;
 }
   
 /* Stylesheet for mobile verwion !important  */
@@ -123,11 +124,13 @@ i{
     color: #d4af37;
     font-size:1.9rem;
     padding-left: 0rem;
+    z-index: 999;
 }
 
 .icon{
     margin: 0.3rem;
     width: 110px;
+    z-index: -1;
 }
 .icon img{
     padding:0rem;
@@ -140,6 +143,7 @@ i{
     margin: auto;
     justify-content: center;
     margin-top: 0rem;
+    z-index: 99;
 }
    
 }
