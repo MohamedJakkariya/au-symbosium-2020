@@ -9,7 +9,6 @@ body {
   font-style: normal;
 }
 
-
 h4{
   text-transform: uppercase;
 }
@@ -22,11 +21,12 @@ h4{
 .overlay2::before {
   position: absolute;
   content: "";
-  background: url('/img/bgimg/dot.jpg') no-repeat;
+  background: url('/img/bgimg/strip.jpg') no-repeat;
+  /* background: linear-gradient(to bottom, #212529, #30353a); */
   background-size: cover;
   background-attachment: fixed;
   top: 0;
-  filter: blur(3px);
+  /* filter: blur(10px); */
   left: 0;
   width: 100%;
   height: 100%;
