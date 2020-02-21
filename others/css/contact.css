@@ -55,10 +55,6 @@
     margin: 20px 0;
   }
 
-  .stars{
-    color: #6ab04c;
-    margin-bottom: 20px;
-  }
   
 .social ul{
     /* border: 1px solid black; */
@@ -70,13 +66,13 @@
 
 .social ul li{
     position: relative;
-    margin: 1.5rem 0.6rem;
+    margin: 1.5rem 0.5rem;
     transition: 0.5s;
     list-style: none;
     /* border: 1px solid black; */
     transform: rotate(-30deg) skew(15deg);
     width: 100px;
-    height: 50px;
+    height:50px;
     /* background: black; */
 }
 .social ul li:nth-child(1){
@@ -91,7 +87,7 @@
     transition: 0.5s;
     justify-content: center;
     align-items: center !important;
-    font-size: 25px;
+    font-size: 20px;
     /* background: black; */
     /* border: 1px solid black; */
     width: 100%;
@@ -158,16 +154,44 @@
     max-width: 100%;
   }
 
+  .social ul li span{
+    font-size: 1.3rem;
+  }
+
   .social ul li{
     position: relative;
-    margin: 1.5rem 0rem;
+    margin: 1.5rem 0.2rem;
     transition: 0.5s;
     list-style: none;
     /* border: 1px solid black; */
-    transform: rotate(25deg) skewX(20deg);
+    transform: rotate(25deg) skewX(0deg);
     width: 100px;
     height: 50px;
     /* background: black; */
   }
+
+  .social ul li:hover span:nth-child(5){
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+
+.social ul li:hover span:nth-child(4){
+    transform: translate(0px,0px);
+    opacity: 0.8;
+    /* z-index: -2; */
+}
+.social ul li:hover span:nth-child(3){
+    transform: translate(0px,0px);
+    opacity: 0.6;
+}
+.social ul li:hover span:nth-child(2){
+    transform: translate(0px,0px);
+    opacity: 0.4;
+}
+.social ul li:hover span:nth-child(1){
+    transform: translate(0px,0px);
+    opacity: 0.2;
+}
+
    }
   

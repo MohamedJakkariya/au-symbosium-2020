@@ -22,11 +22,12 @@ h4{
   position: absolute;
   content: "";
   background: url('/img/bgimg/strip.jpg') no-repeat;
-  /* background: linear-gradient(to bottom, #212529, #30353a); */
+  /* background: linear-gradient(to bottom, #212529, #56585a); */
   background-size: cover;
   background-attachment: fixed;
   top: 0;
-  /* filter: blur(10px); */
+  filter: blur(4px);
+  border: none;
   left: 0;
   width: 100%;
   height: 100%;
