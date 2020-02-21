@@ -12,13 +12,6 @@ body{
     overflow-x: hidden;
 }
 
-/* Navbar  */
-.sticky-top{
-    background: none; 
-    width: 100%;
-    text-transform: uppercase;
-}
-
 .out {
     width: 100vw;
     height: 100vh;
