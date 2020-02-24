@@ -89,6 +89,11 @@ i{
     display: none;
 }
 
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Stylesheet for mobile verwion !important  */
 
