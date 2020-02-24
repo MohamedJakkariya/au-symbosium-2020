@@ -6,9 +6,9 @@
 
 /* Style for laptop version  */
 body{
-    background: url("img/bgimg/dot.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    /* background: url("img/bgimg/dot.jpg") no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
     overflow-x: hidden;
 }
 

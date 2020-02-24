@@ -143,7 +143,7 @@
     
   
     <!-- for blur effect  -->
-    <div class="out" id="out"></div>
+    <div class="out" id="out" style="display: none;"></div>
 
     <!-- container start -->
     <div class="scroll container-fluid" style="display: none;" id="container">
@@ -243,9 +243,13 @@
 
   <script>
       $(document).ready(() => {
+        setInterval(() => {
         $('#navbar').show();
         $('#container').show();
         $('#msg').hide();
+        $('#out').show();
+        }, 2000)
+
       });
   </script>
 </body>
