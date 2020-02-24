@@ -80,12 +80,13 @@ i{
     z-index: 99;
 }
   
-.disabled{
-    display: none;
-}
 
-#nextBtn:hover{
+#nextBtn{
     color: white;
+    background: #28a745;
+    border-radius: 2px;
+    padding: 7px 10px;
+    display: none;
 }
 
 
