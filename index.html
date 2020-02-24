@@ -36,23 +36,18 @@
          $(".out").css({"-webkit-filter": "blur("+pixs+"px)","filter": "blur("+pixs+"px)" })     
        });
 
-       function enable(){
-        var nextBtn =  document.getElementById('nextBtn');
-        nextBtn.style.pointerEvents = "unset";
-        nextBtn.classList.add("addBg");     
-       }
 
        function show(){
              // Get the checkbox
-            var checkBox = document.getElementById("f");
+            var checkBox = document.getElementById("checkbox");
             // Get the output text
-            var text = document.getElementById("text");
+            var button = document.getElementById("nextBtn");
 
-            // If the checkbox is checked, display the output text
+            // If the checkbox is checked, display the output button
             if (checkBox.checked == true){
-                text.style.display = "block";
+                button.style.display = "block";
             } else {
-                text.style.display = "none";
+                button.style.display = "none";
             }
        }
     </script>
@@ -189,15 +184,16 @@
         <div class="modal-body">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat consectetur aperiam, omnis necessitatibus sed labore quibusdam unde laboriosam ad dolorum, numquam fuga ratione, a harum pariatur officiis doloribus asperiores animi aliquid quo. Commodi vel, autem, iusto est excepturi aspernatur reiciendis quisquam optio possimus fugiat odit vitae? Iure, natus quibusdam. Ipsum!
         </div>
-        <div class="modal-footer">
-            <div class="terms" style="float: left;">
-                <input type="checkbox" name="checkBox" id="accept" onclick="enable()">
+        <div class="modal-footer mt-4">
+            <br>
+            <div class="terms"  style="position: absolute; left: 0;bottom: 0; padding: 10px;">
+                <input type="checkbox" name="checkBox" id="checkbox" onclick="show()">
                 <a href="#">
-                  *Terms & Condition Apply
+                  <span class="text-danger">*</span>Terms & Condition
                 </a>
             </div>
         
-          <a type="button" href="/others/price.html" id="nextBtn" class="disabled">Accept</a>
+          <a type="button" href="/others/price.html" id="nextBtn"  class="disabled btn btn-success" style="display: none;">Accept</a>
         </div>
       </div>
     </div>

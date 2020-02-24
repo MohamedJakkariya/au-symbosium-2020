@@ -80,24 +80,15 @@ i{
     z-index: 99;
 }
   
-.disabled {
-    pointer-events: none;
-    cursor: default;
-    color: #212529;
-    margin: 0 2rem;
-    /* background: #21252 */
+.disabled{
+    display: none;
 }
 
 #nextBtn:hover{
     color: white;
 }
 
-.addBg{
-    background: #05dfd7;
-    color: white;
-    padding: 8px 10px;
-    border-radius: 3px;
-}
+
 /* Stylesheet for mobile verwion !important  */
 
 @media (max-width : 600px){
