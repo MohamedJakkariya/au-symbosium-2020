@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 .fade {
   opacity: 1;
 }
@@ -11,6 +12,10 @@ body {
 
 h4{
   text-transform: uppercase;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 .overlay2 {
