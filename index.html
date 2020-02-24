@@ -49,16 +49,47 @@
             } else {
                 button.style.display = "none";
             }
+            
        }
 
        function uncheck(){
-           document.getElementById('checkbox').checked = false;
+           setInterval(() => {
+            document.getElementById('checkbox').checked = false;
+               
+           }, 500);
        }
     </script>
 </head>
-<body>
 
-<nav class="navbar navbar-expand-lg" style="background: #212529; z-index: 99;">
+<body >
+
+<div id="msg">
+    <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div></div>
+
+<nav class="navbar navbar-expand-lg" style="background: #212529; z-index: 99; display: none;" id="navbar">
 
     <!-- Brand  -->
     <a href="#" class="nav-link text-white" style="font-family:'Josefin Sans', sans-serif;">
@@ -112,10 +143,10 @@
     
   
     <!-- for blur effect  -->
-    <div class="out"></div>
+    <div class="out" id="out"></div>
 
     <!-- container start -->
-    <div class="scroll container-fluid">
+    <div class="scroll container-fluid" style="display: none;" id="container">
         <div class="row">
             <div class="icon col-md-3">
                 <a href="others/tech.html">
@@ -210,6 +241,13 @@
     </div>
   </div>
 
+  <script>
+      $(document).ready(() => {
+        $('#navbar').show();
+        $('#container').show();
+        $('#msg').hide();
+      });
+  </script>
 </body>
 
 
