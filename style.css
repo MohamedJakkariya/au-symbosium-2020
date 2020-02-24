@@ -86,7 +86,6 @@ i{
     background: #28a745;
     border-radius: 2px;
     padding: 7px 10px;
-    display: none;
 }
 
 #msg{
@@ -97,7 +96,6 @@ i{
     z-index: 99;
 
 }
-
 
 .modal-body{
     display: flex;
