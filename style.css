@@ -94,6 +94,11 @@ i{
     flex-direction: column;
 }
 
+#modalimg{
+    width:500px;
+    margin: auto;
+}
+
 
 /* Stylesheet for mobile verwion !important  */
 
@@ -153,6 +158,10 @@ i{
     justify-content: center;
     margin-top: 0rem;
     z-index: 99;
+}
+#modalimg{
+    width:100%;
+    margin: auto;
 }
    
 }
