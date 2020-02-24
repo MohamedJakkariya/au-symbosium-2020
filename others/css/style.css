@@ -63,6 +63,8 @@ h4{
   bottom: 0;
 }
 
+
+
 @media (max-width: 767px) {
   .program_details_area .program_detail_wrap::before {
     left: 13px;

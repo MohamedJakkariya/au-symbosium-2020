@@ -24,7 +24,7 @@ body{
 
 .scroll{
     height: 700px;
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
     width: 60%;
     background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.8) 100%);
 }
