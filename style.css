@@ -114,12 +114,6 @@ i{
 
 @media (max-width : 600px){
 
-body{
-    background: url("img/bgimg/dotted.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* z-index: 99; */
-}
 
 .out {
     width: 100vw;
