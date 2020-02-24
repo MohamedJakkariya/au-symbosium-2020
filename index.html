@@ -50,6 +50,10 @@
                 button.style.display = "none";
             }
        }
+
+       function uncheck(){
+           document.getElementById('checkbox').checked = false;
+       }
     </script>
 </head>
 <body>
@@ -187,9 +191,9 @@
 
            &#8608; If you registered for networking technologies workshop you can't attend any other events in the symposium <br>
 
-           &#8608; You can attend only one event happening in March 10  <br>
+           &#8608; You can attend only one event happening on March 10  <br>
 
-           &#8608; In the same way you can only attend one event in March 11 <br>
+           &#8608; In the same way you can only attend one event on March 11 <br>
         </div>
         <div class="modal-footer mt-4">
             <br>
@@ -200,7 +204,7 @@
                 </a>
             </div>
         
-          <a href="/others/price.html" id="nextBtn" class="">Accept</a>
+          <a href="/others/price.html" id="nextBtn" onclick="uncheck()">Accept</a>
         </div>
       </div>
     </div>
