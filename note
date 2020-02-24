@@ -40,3 +40,51 @@ https://docs.google.com/forms/d/e/1FAIpQLSfbpfG3gkufbbmnz16ucxol_NwVTtoB3gIGB_Gc
 ai or ocr:
 https://docs.google.com/forms/d/e/1FAIpQLScMdswmuAa2d3FfPH1bGqRNs7PHvh53tq6_gdkJptWn1L3e1Q/viewform?usp=sf_link
 
+
+
+
+Deleted combo pack 
+
+        <!-- div - 4  -->
+        <div class="card container col-md-12 col-lg-6 col-sm-12 mt-4">
+            <div class="card-header">
+                <h6>PROJECT EXPO ACCESS + WORKSHOP</h6>
+                <p class="text-danger">Rs.200 + Based on workshop</p>
+            </div>
+            <div class="card-body">
+                <p><span class="fa fa-check text-success"></span> Regular Seating</p>
+                <p><span class="fa fa-check text-success"></span> Coffee Break</p>
+                <p><span class="fa fa-check text-success"></span> Id Card</p>
+                <p ><span class="fa fa-check text-success"></span> Certificate for All Participants</p>
+                <p ><span class="fa fa-check text-success"></span> Workshop Access(Based on Domain)</p>
+                <p ><span class="fa fa-check text-success"></span>Cash Prize for Winners</p>
+                <p class="text-secondary"><span class="fa fa-times text-danger"></span> Symposium Access</p>
+                
+            </div>
+            <div class="card-footer">
+                <a href="/others/acdetail.html" type="button" class="btn btn-danger rounded-pill">Pay Now</a>
+            </div>
+            </div>
+        <!-- end div - 4 -->
+
+        <!-- div - 5 -->
+        <div class="card container col-md-12 col-lg-6 col-sm-12 mt-4">
+            <div class="card-header">
+                <h6>SYMPOISUM + PROJECT EXPO ACCESS</h6>
+                <p class="text-danger">Rs. 350/-</p>
+            </div>
+            <div class="card-body">
+                <p><span class="fa fa-check text-success"></span> Regular Seating</p>
+                <p><span class="fa fa-check text-success"></span> Coffee Break</p>
+                <p><span class="fa fa-check text-success"></span> Id Card</p>
+                <p><span class="fa fa-check text-success"></span> Certificate for All Participants</p>
+                <p ><span class="fa fa-check text-success"></span> Symposium Access</p>
+                <p ><span class="fa fa-check text-success"></span>Cash Prize for Winners</p>
+                <p class="text-secondary"><span class="fa fa-times text-danger text-secondary"></span> Workshop Access(Based on Domain)</p>
+
+            </div>
+            <div class="card-footer">
+                <a href="/others/acdetail.html" type="button" class="btn btn-danger rounded-pill">Pay Now</a>
+            </div>
+            </div>
+        <!-- end div - 5 -->
