@@ -112,7 +112,7 @@ i{
     top: 50%;
     left: -70px;
     z-index: 100;
-    border-radius:2px;
+    /* border-radius:2px; */
     padding:5px 10px;
     font-size: 1.8rem;
     transition: 0.5s;
