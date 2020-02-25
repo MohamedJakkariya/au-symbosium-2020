@@ -130,8 +130,7 @@ i{
     text-decoration: none;
 }
 
-
-.slide:hover, .slide:focus{
+.slide:hover{
     left: 0;
 }
 
