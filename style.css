@@ -107,6 +107,26 @@ i{
     margin: auto;
 }
 
+.slide{
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    z-index: 100;
+    border-radius:2px;
+    padding:5px 10px;
+    font-size: 1.8rem;
+    color: #d4af37;
+    transition: 0.5s;
+    background-color: #212529;
+    /* border: 1px solid #d4af37; */
+}
+/* .fa-arrow-right{
+    color: white;
+} */
+
+.slide:hover, .slide:focus{
+    left: 0;
+}
 
 /* Stylesheet for mobile verwion !important  */
 
