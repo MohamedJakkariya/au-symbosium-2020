@@ -201,3 +201,46 @@ body{
 
    }
   
+/* slide button  */
+/* slide button  */
+.slide{
+  position: absolute;
+  top: 50%;
+  left: -94px;
+  z-index: 100;
+  /* border-radius:2px; */
+  padding:5px 10px;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  background-color: #212529;
+  position: fixed;
+  /* border: 1px solid #d4af37; */
+  color: #d4af37;
+
+}
+
+.slide a{
+  text-decoration: none;
+}
+
+.slide a span{
+  color: #d4af37;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.slide a:hover, .slide a:focus{
+  text-decoration: none;
+}
+
+.slide:hover{
+  left: 0;
+}
+
+@media (max-width:600px){
+  .slide{
+    top: 75%;
+    left: -94px;
+    z-index: 100;
+}
+}
