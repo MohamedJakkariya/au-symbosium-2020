@@ -38,11 +38,17 @@
         user-select: none;
       }
 
+      .buttons{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
-      }
+      }  
     </style>
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
@@ -65,10 +71,14 @@
       <h1 class="display-3" >Project Expo</h1>
       <p>Project expo is about to present your project(PPT)  with implementation ie.Kits and neccessary things .The best project with clear explanation and implementation will be awarded the cash prize.
       </p>
-      <p><a class="btn btn-dark btn-lg" href="/others/price.html" role="button">Go to Register &raquo;</a>
-      <a class="btn btn-outline-success btn-lg" href="#" data-toggle="modal" data-target="#modal-1" role="button">View 1 &raquo;</a>    
-      <a class="btn btn-outline-success btn-lg" href="#" data-toggle="modal" data-target="#modal-2" role="button">View 2 &raquo;</a>
-      </p>
+      <div class="buttons">
+        <p class="float-left"><a class="btn btn-dark btn-lg" href="/others/price.html" role="button">Go to Register &raquo;</a></p>
+        <p class="float-right">
+          <a class="btn btn-outline-success btn-lg" href="#" data-toggle="modal" data-target="#modal-1" role="button">View 1 &raquo;</a>    
+          <a class="btn btn-outline-success btn-lg" href="#" data-toggle="modal" data-target="#modal-2" role="button">View 2 &raquo;</a>
+        </p>
+      </div>
+     
     </div>
   </div>
 
