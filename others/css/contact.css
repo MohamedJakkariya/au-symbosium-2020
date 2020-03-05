@@ -50,9 +50,9 @@ body{
   }
 
   .testimonial img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 150px;
+    height: 70px;
+    /* border-radius: 50%; */
   }
 
   .name{
@@ -243,4 +243,5 @@ body{
     left: -94px;
     z-index: 100;
 }
+
 }
