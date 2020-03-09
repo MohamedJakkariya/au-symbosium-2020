@@ -146,7 +146,7 @@ i{
     z-index: 100;
     padding:5px 8px;
     border-radius: 3px;
-    border: 1px solid #d4af37;
+    /* border: 1px solid #d4af37; */
     font-size: 0.8rem;
     color: #d4af37;
     transition: 0.5s;
@@ -161,6 +161,11 @@ i{
 .register a:hover, .register a:focus{
     color: white;
     text-decoration: none;
+}
+
+.closed{
+    height: 25px;
+    border-radius: 50%;
 }
 /* Stylesheet for mobile verwion !important  */
 
